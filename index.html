@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Draav Jain | Web Developer</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <!-- <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/img/favicon-32x32.png"
+    /> -->
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="img/DJ-1 (2).jpg" class="logo" />
+          <ul id="sidemenu">
+            <li class="active"><a href="#header">Home</a></li>
+            <li><a href="#about">Skills</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closeMenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openMenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Hello world!</p>
+          <h1>
+            I'm Draav Jain<br /><span><</span
+            ><span class="dev">Frontend Developer</span><span>></span>
+          </h1>
+          <p class="dev-text">
+            Self-taught web developer with a great passion for creating
+            beautiful websites.
+          </p>
+          <a href="#contact"><button class="button">Let's talk</button></a>
+        </div>
+        <!-- <article class="hero-images">
+              <img
+                src="./img/62eba1f65169268507dfb0e1_hero-main-image.png"
+                class="phone-img"
+                alt=""
+              />
+            </article> -->
+      </div>
+    </div>
+    <!--------------- ABOUT PAGE ------------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="img/about.png" alt="" />
+          </div>
+
+          <div class="about-col-2">
+            <h1 class="sub-title">Skills</h1>
+
+            <div class="skills-box-content">
+              <div class="tab-titles">
+                <div class="tab-links">
+                  <i class="fa-brands fa-html5"></i>
+                  <h3>HTML</h3>
+                </div>
+                <div class="tab-links">
+                  <i class="fa-brands fa-css3-alt"></i>
+                  <h3>CSS</h3>
+                </div>
+                <div class="tab-links">
+                  <i class="fa-brands fa-js"></i>
+                  <h3>JavaScript</h3>
+                </div>
+                <div class="tab-links">
+                  <i class="fa-brands fa-react"></i>
+                  <h3>React</h3>
+                </div>
+                <div class="tab-links">
+                  <i class="fa-brands fa-git-alt"></i>
+                  <h3>Git</h3>
+                </div>
+                <div class="tab-links">
+                  <i class="fa-brands fa-bootstrap"></i>
+                  <h3>Bootstrap</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------- Portfolio ---------------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title gen">Portfolio</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="img/pic-2.png" alt="" class="port"/>
+            <div class="layer">
+              <h3>E-commerce website</h3>
+              <p>
+                A furniture store that sell home goods. Search and
+                filter from a variety of categories and add to cart with
+                integrated authentication & payment page
+              </p>
+              <a href="https://comfy-sloth-0811.netlify.app/"
+                target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"> Live</i
+              ></a>
+              <a href="https://github.com/DJ081/e-commerce-furniture-store"
+               target="_blank" ><i class="fa-brands fa-github"> Source</i></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="img/pic-1.png" alt="" class="port"/>
+            <div class="layer">
+              <h3>Chat Application</h3>
+              <p>
+                A realtime private chat application made using React JS and
+                firebase
+              </p>
+              <a href="https://chat-application-08.netlify.app/" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"> Live</i
+              ></a>
+              <a href="https://github.com/DJ081/chat-application" target="_blank"
+                ><i class="fa-brands fa-github"> Source</i></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="img/pic-5.png" alt="" class="port" />
+            <div class="layer">
+              <h3>Search Github users</h3>
+              <p>
+                Website to search GitHub users integrated with authentication.
+                Made the data Interactive and Responsive by using FusionCharts
+                API
+              </p>
+              <a href="https://search-github-user08.netlify.app/"
+               target="_blank" ><i class="fa-solid fa-arrow-up-right-from-square"> Live</i
+              ></a>
+              <a href="https://github.com/DJ081/search-github-user"
+              target="_blank"  ><i class="fa-brands fa-github"> Source</i></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="./portfolio.html" class="btn">See more</a>
+      </div>
+    </div>
+    <!-- --------------contact--------------------- -->
+    <div id="contact"> 
+      <div class="container">
+        <div class="row">
+          <h1 class="sub-title c-title">Contact Me</h1>
+
+          <div class="contact-left">
+            <p class="ptag" style="margin-top: 14px;">Let's collaborate to create perfect and most user-friendly digital products. Just leave a message to get in touch.</p>
+            <p><i class="fas fa-paper-plane"></i> draavjain2001@gmail.com</p>
+            <p><i class="fas fa-phone-square-alt"></i> 9971058170</p>
+            <!-- <div class="social-icons">
+              <a href="https://www.linkedin.com/in/draav-jain-818991210/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="" target="_blank"><i class="fab fa-twitter-square"></i></a>
+              <a href="https://github.com/DJ081" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+            </div> -->
+            <a href="img/Draav_Jain_Resume_16-09-2022-00-23-28.pdf" download class="btn btn2">Download CV</a>
+          </div>
+
+          <div class="contact-right">
+            <form  action="https://formspree.io/f/xnqrpovk" method="POST">
+              <input type="text" name="Name" placeholder="Your Name" required>
+
+              <input type="email" name="email" placeholder="Your Email" required>
+
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="copyright">
+        <p>Copyright &copy; Draav. All rights reserved</p>
+      </div>
+    </div> -->
+<!-- footer -->
+    <footer class="footer">
+      <!-- social icons -->
+      <ul class="social-icons">
+        <li>
+          <a href="https://www.linkedin.com/in/draav-jain-818991210/" target="_blank" class="social-icon">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/DJ081" class="social-icon" target="_blank" >
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com/draav_jain" class="social-icon" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <!-- <li>
+          <a href="https://www.twitter.com" class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li> -->
+      </ul>
+
+      <p>&copy; <span id="date"></span> draav jain. all rights reserved</p>
+    </footer>
+
+    <script>
+      var sidemenu=document.getElementById('sidemenu')
+
+      function openMenu(){
+        sidemenu.style.right="0"
+      }
+      function closeMenu(){
+        sidemenu.style.right="-200px"
+      }
+    </script>
+  </body>
+</html>
